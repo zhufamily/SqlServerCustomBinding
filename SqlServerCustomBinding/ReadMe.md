@@ -1,4 +1,4 @@
-﻿# SharePoint Online Binding
+﻿# Sql Server Custom Binding
 ## _A custom binding for Sql Server in Azure function_
 ## Features
 
