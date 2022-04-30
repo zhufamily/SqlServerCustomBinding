@@ -6,8 +6,8 @@
 - Input / output binding for Sql Server Connection
 ## Dependencies
 - .Net 6.x
-- Microsoft.Azure.WebJob 3.0.31+
-- Microsoft.Azure.WebJob.Core 3.0.31+
+- Microsoft.Azure.WebJob 3.0.32+
+- Microsoft.Azure.WebJob.Core 3.0.32+
 - Microsoft.Data.SqlClient 4.1.0+
 
 ## Installation
