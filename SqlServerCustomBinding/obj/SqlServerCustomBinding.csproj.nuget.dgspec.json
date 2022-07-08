@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\Ning Zhu\\Documents\\GitHub\\SqlServerCustomBinding\\SqlServerCustomBinding\\SqlServerCustomBinding.csproj": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "restore": {
         "projectUniqueName": "C:\\Users\\Ning Zhu\\Documents\\GitHub\\SqlServerCustomBinding\\SqlServerCustomBinding\\SqlServerCustomBinding.csproj",
         "projectName": "SqlServerCustomBinding",
@@ -47,11 +47,11 @@
           "dependencies": {
             "Microsoft.Azure.WebJobs": {
               "target": "Package",
-              "version": "[3.0.31, )"
+              "version": "[3.0.33, )"
             },
             "Microsoft.Azure.WebJobs.Core": {
               "target": "Package",
-              "version": "[3.0.31, )"
+              "version": "[3.0.33, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

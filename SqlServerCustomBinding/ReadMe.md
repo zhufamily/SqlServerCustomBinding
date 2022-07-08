@@ -6,8 +6,8 @@
 - Input / output binding for Sql Server Connection
 ## Dependencies
 - .Net 6.x
-- Microsoft.Azure.WebJob 3.0.32+
-- Microsoft.Azure.WebJob.Core 3.0.32+
+- Microsoft.Azure.WebJob 3.0.33+
+- Microsoft.Azure.WebJob.Core 3.0.33+
 - Microsoft.Data.SqlClient 4.1.0+
 
 ## Installation
@@ -61,7 +61,7 @@ public static async Task<IActionResult> your_function_name(
     return new OkObjectResult("All good!");
 }
 ```
-You can use input / output binding to read / write data from Sql Server or whatever you can do with SqlConnection.
+You can use input / output binding to read / write data from Sql Server or whatever you can do with SqlConnection.  For more SQL Server related information, please refer to https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient?view=sqlclient-dotnet-standard-4.1.
 
 ## License
 

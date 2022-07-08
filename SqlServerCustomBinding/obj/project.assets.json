@@ -38,10 +38,10 @@
           "lib/netstandard2.0/Azure.Identity.dll": {}
         }
       },
-      "Microsoft.Azure.WebJobs/3.0.31": {
+      "Microsoft.Azure.WebJobs/3.0.33": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.WebJobs.Core": "3.0.31",
+          "Microsoft.Azure.WebJobs.Core": "3.0.33",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.1",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.1.0",
@@ -61,7 +61,7 @@
           "lib/netstandard2.0/Microsoft.Azure.WebJobs.Host.dll": {}
         }
       },
-      "Microsoft.Azure.WebJobs.Core/3.0.31": {
+      "Microsoft.Azure.WebJobs.Core/3.0.33": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel.Annotations": "4.4.0",
@@ -1049,29 +1049,29 @@
         "pkgicon.png"
       ]
     },
-    "Microsoft.Azure.WebJobs/3.0.31": {
-      "sha512": "Jn6E7OgT7LkwVB6lCpjXJcoQIvKrbJT+taVLA4CekEpa21pzZv6nQ2sYRSNzPz5ul3FAcYhmrCQgV7v2iopjgA==",
+    "Microsoft.Azure.WebJobs/3.0.33": {
+      "sha512": "eSv858ll+GsLYxM2+RKBiTC34CvGnEgLtnrzRljzrociIXsosadHDQLxvvqu0eyIQRRf5kc4MHII/wc0HRNvyg==",
       "type": "package",
-      "path": "microsoft.azure.webjobs/3.0.31",
+      "path": "microsoft.azure.webjobs/3.0.33",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Azure.WebJobs.Host.dll",
-        "microsoft.azure.webjobs.3.0.31.nupkg.sha512",
+        "microsoft.azure.webjobs.3.0.33.nupkg.sha512",
         "microsoft.azure.webjobs.nuspec",
         "webjobs.png"
       ]
     },
-    "Microsoft.Azure.WebJobs.Core/3.0.31": {
-      "sha512": "iStV0MQ9env8R2F+8cbaynMK4TDkU6bpPVLdOzIs83iriHYMF+uWF6WZWI8ZJahWR37puQWc86u1YCsoIZEocA==",
+    "Microsoft.Azure.WebJobs.Core/3.0.33": {
+      "sha512": "4Rp5of6KFEGisQL7OJV2/8v3IQGFvTgZ9xSbB3bfkw5VHoNKn3Yllx7Qk/oUUX7Zey7jNu5mQFIR6dW6xNMX5Q==",
       "type": "package",
-      "path": "microsoft.azure.webjobs.core/3.0.31",
+      "path": "microsoft.azure.webjobs.core/3.0.33",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Azure.WebJobs.dll",
         "lib/netstandard2.0/Microsoft.Azure.WebJobs.xml",
-        "microsoft.azure.webjobs.core.3.0.31.nupkg.sha512",
+        "microsoft.azure.webjobs.core.3.0.33.nupkg.sha512",
         "microsoft.azure.webjobs.core.nuspec",
         "webjobs.png"
       ]
@@ -3513,8 +3513,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.Azure.WebJobs >= 3.0.31",
-      "Microsoft.Azure.WebJobs.Core >= 3.0.31",
+      "Microsoft.Azure.WebJobs >= 3.0.33",
+      "Microsoft.Azure.WebJobs.Core >= 3.0.33",
       "Microsoft.Data.SqlClient >= 4.1.0"
     ]
   },
@@ -3524,7 +3524,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "restore": {
       "projectUniqueName": "C:\\Users\\Ning Zhu\\Documents\\GitHub\\SqlServerCustomBinding\\SqlServerCustomBinding\\SqlServerCustomBinding.csproj",
       "projectName": "SqlServerCustomBinding",
@@ -3566,11 +3566,11 @@
         "dependencies": {
           "Microsoft.Azure.WebJobs": {
             "target": "Package",
-            "version": "[3.0.31, )"
+            "version": "[3.0.33, )"
           },
           "Microsoft.Azure.WebJobs.Core": {
             "target": "Package",
-            "version": "[3.0.31, )"
+            "version": "[3.0.33, )"
           },
           "Microsoft.Data.SqlClient": {
             "target": "Package",
@@ -3592,7 +3592,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
