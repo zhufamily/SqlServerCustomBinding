@@ -38,7 +38,7 @@ public static async Task<IActionResult> <your_function_name>(
 }
 ```
 
-For connection string information, please refer to https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection.connectionstring?view=sqlclient-dotnet-standard-4.1, and for SqlCommand please refer to https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand?view=sqlclient-dotnet-standard-4.1.  You do not have to set up Connection property for the SqlCommands, and it will be automatically populated with your connection string.  All SqlCommands will NOT return anything, such as reader or etc.  If you need more complicated operation, please see the following sample for input / output binding.
+For connection string information, please refer to https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection.connectionstring?view=sqlclient-dotnet-standard-5.0, and for SqlCommand please refer to https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand?view=sqlclient-dotnet-standard-4.1.  You do not have to set up Connection property for the SqlCommands, and it will be automatically populated with your connection string.  All SqlCommands will NOT return anything, such as reader or etc.  If you need more complicated operation, please see the following sample for input / output binding.
 
 ```sh
 [FunctionName("<your_function_name>")]
@@ -61,7 +61,7 @@ public static async Task<IActionResult> your_function_name(
     return new OkObjectResult("All good!");
 }
 ```
-You can use input / output binding to read / write data from Sql Server or whatever you can do with SqlConnection.  For more SQL Server related information, please refer to https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient?view=sqlclient-dotnet-standard-4.1.
+You can use input / output binding to read / write data from Sql Server or whatever you can do with SqlConnection.  For more SQL Server related information, please refer to https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient?view=sqlclient-dotnet-standard-5.0.
 
 ## License
 
