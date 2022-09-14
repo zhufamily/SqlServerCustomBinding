@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-	<VersionPrefix>1.0.2</VersionPrefix>
+	<VersionPrefix>1.0.3</VersionPrefix>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<AssemblyVersion>1.0.2.1</AssemblyVersion>
-    <FileVersion>1.0.2.1</FileVersion>
+	<AssemblyVersion>1.0.3.1</AssemblyVersion>
+    <FileVersion>1.0.3.1</FileVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Ning Zhu</Authors>
     <Company>Procentrx Inc.</Company>

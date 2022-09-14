@@ -8,7 +8,7 @@
 - .Net 6.x
 - Microsoft.Azure.WebJob 3.0.33+
 - Microsoft.Azure.WebJob.Core 3.0.33+
-- Microsoft.Data.SqlClient 4.1.0+
+- Microsoft.Data.SqlClient 5.0.0+
 
 ## Installation
 

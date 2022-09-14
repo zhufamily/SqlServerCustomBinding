@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "SqlServerCustomBinding/1.0.2": {
+      "SqlServerCustomBinding/1.0.3": {
         "dependencies": {
           "Microsoft.Azure.WebJobs": "3.0.33",
           "Microsoft.Azure.WebJobs.Core": "3.0.33",
@@ -776,7 +776,7 @@
     }
   },
   "libraries": {
-    "SqlServerCustomBinding/1.0.2": {
+    "SqlServerCustomBinding/1.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
